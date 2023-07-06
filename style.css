@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgba(150, 150, 150, 0.74);
+}
+.container{
+    padding: 30px;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    min-height: 100vh ;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea{
+    padding: 10px;
+    border: 2px solid royalblue;
+    font: 10 1rem sans-serif;
+    margin: 10px;
+    border-radius: 5px;
+}
+button{
+    width: 15%;
+    padding: 10px;
+    border: 0px;
+    font: 100 1.1rem sans-serif;
+    margin: auto;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 15px;
+    color: white;
+    background-color: royalblue;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 5px 15px grey;
+}
+.task{
+    background-color: rgb(231, 231, 231);
+    font: 100 1.1rem sans-serif;
+    padding: 30px;
+    color: rgba(0,0,0,0,8);
+    display: flex;
+    align-items: center;
+    margin: 2vmax;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+.task:hover{
+    background-color: rgba(65, 105, 225, 0.671);
+}
+
+.task > div{
+    width:100%;
+}
+/* .innerTask{
+    transition: all 0s;
+}
+.innerTask:hover{
+    transform: scaleY(-1);
+} */
+.task span{
+    color:rgba(0, 0, 0, 0.587);
+}
+.deleteBtn{
+    border-radius: 100%;
+    width : 30px;
+    height: 30px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.deleteBtn:hover{
+    background-color: rgba(220, 20, 60, 0.886);
+    box-shadow: 0px 1px 10px rgba(255, 0, 0, 0.801);
+}
+
+.foot{
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    background-color:black;
+    color: yellow;
+    box-sizing: border-box;
+}
+.foot > p{
+    text-align: center;
+}
+.fa-linkedin-in{
+    color: #0072b1;
+    font-size: 25px;
+}
+.fa-instagram{
+    color:#d62976;
+    font-size: 25px;
+}
+.fa-twitter{
+    color: #00acee;
+    font-size: 25px;
+}
